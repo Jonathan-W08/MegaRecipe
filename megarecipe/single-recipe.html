@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe</title>
+    
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+
+    
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
+
+    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+
+    
+    
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index2.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="Mega Recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index2.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="contact.html" class="nav-link"> contact</a>
+          
+          <div class="nav-link logout">
+            <form onsubmit="return handleLogout();">
+                <button type="submit" class="btn">Logout</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Banana Pancakes</h2>
+            <h3>Nutrition:</h3>
+            <ul>
+            <li>Calories: 200-250 calories</li>
+            <li>Carbohydrates: 40-50 grams</li>
+            <li>Protein: 4-6 grams</li>
+            <li>Fat: 2-4 grams</li>
+            <li>Fiber: 2-4 grams</li>
+            <li>Sugar: 10-15 grams</li>
+            </ul>
+            
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">Tinggi Kalori (1)</a>
+              <a href="tag-template.html">Rendah Lemak (2)</a>
+              <a href="tag-template.html">Mudah dan Murah (3)</a>
+              <a href="tag-template.html">Aneka Masakan</a>
+            </p>
+          </article>
+        </section>
+        
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+           
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Mash the Bananas: Peel the ripe bananas and place them in a mixing bowl. Use a fork to mash them until smooth. You can leave a few small lumps for texture if you prefer.
+              </p>
+            </div>
+       
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Add Eggs: Add the eggs to the mashed bananas and mix them together until well combined.
+              </p>
+            </div>
+         
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Combine Dry Ingredients: In a separate bowl, whisk together the all-purpose flour, baking powder, salt, and ground cinnamon (if using).
+              </p>
+            </div>
+
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Mix Wet and Dry Ingredients: Pour the banana and egg mixture into the dry ingredients. Stir until just combined. Be careful not to overmix; a few lumps are okay.
+              </p>
+            </div>
+
+            <div class="single-instruction">
+              <header>
+                <p>step 5</p>
+                <div></div>
+              </header>
+              <p>
+                Heat the Pan: Place a non-stick skillet or frying pan over medium heat and add a small amount of butter or oil to prevent sticking.
+              </p>
+            </div>
+          
+            <div class="single-instruction">
+              <header>
+                <p>step 6</p>
+                <div></div>
+              </header>
+              <p>
+                Cook Pancakes: Once the pan is hot, pour 1/4 cup portions of the batter onto the pan for each pancake. You can make your pancakes as large or as small as you like. Cook until you see bubbles forming on the surface, which usually takes about 2-3 minutes.
+              </p>
+            </div>
+          
+            <div class="single-instruction">
+              <header>
+                <p>step 7</p>
+                <div></div>
+              </header>
+              <p>
+                Flip and Cook: Carefully flip the pancakes and cook the other side for an additional 1-2 minutes, or until they are golden brown and cooked through.
+              </p>
+            </div>
+          
+
+            <div class="single-instruction">
+              <header>
+                <p>step 8</p>
+                <div></div>
+              </header>
+              <p>
+                Serve: Remove the pancakes from the pan and keep them warm. You can serve them with your choice of toppings such as maple syrup, fresh berries, chopped nuts, or a dollop of yogurt.
+              </p>
+            </div>
+          
+
+            <div class="single-instruction">
+              <header>
+                <p>step 9</p>
+                <div></div>
+              </header>
+              <p>
+                Enjoy: Serve your banana pancakes while they are still warm and enjoy!
+              </p>
+            </div>
+
+
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 1/2 cups dry pancake mix</p>
+              <p class="single-ingredient">1/2 cup flax seed meal</p>
+              <p class="single-ingredient">1 cup skim milk</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Large Heavy Pot With Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+
+
+    
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Mega Recipes</span> Copyrights by
+        <a>MegaDev</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="/js/loginlogout.js"></script>
+  </body>
+</html>

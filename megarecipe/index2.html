@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega Recipes</title>
+    
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+
+  
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
+
+  
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+
+
+
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index2.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="Mega Recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+
+        <div class="nav-links">
+          <a href="index2.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+          <a href="contact.html" class="nav-link"> contact</a>
+          
+          <div class="nav-link logout">
+            <form onsubmit="return handleLogout();">
+                <button type="submit" class="btn">Logout</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="page">
+
+
+      
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Mega Recipes</h1>
+            <h4>Healthy and Complete Recipes</h4>
+          </div>
+        </div>
+      </header>
+      
+      <section class="recipes-container">
+        <div class="tags-container">
+          <h4>recipes</h4>
+          <div class="tags-list">
+            <a href="tinggikalori.html">Tinggi Kalori (9)</a>
+            <a href="rendahlemak.html">Rendah lemak (9)</a>
+            <a href="mudahmurah.html">Mudah dan Murah (11)</a>
+            <a href="tag-template.html">Terpopular (29)</a>
+          </div>
+        </div>
+       
+        <div class="recipes-list">
+          
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/tinggikalori/mieayam.webp"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Mie ayam</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/tinggikalori/nasigoreng"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Nasi Goreng</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/tinggikalori/oporbebek"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Opor Bebek</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/tinggikalori/satedaging.webp"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Sate Daging</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/dadaayam.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Dada Ayams</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/ikanbakar.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Ikan Bakar</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/nasikuning.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Nasi Kuning</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/olahanterong.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Olahan Sayur</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/salad sayur.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Salad Sayur</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/salmonbakar.webp"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Salmon Bakar</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/sate.webp"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Sate</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/rendahlemak/sayur rebus.png"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Sayur Rebus</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          
+        </div>
+       
+      </section>
+    </main>
+  
+
+
+
+    
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Mega Recipes</span> Copyrights by
+        <a>MegaDev</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="/js/loginlogout.js"></script>
+  </body>
+</html>
