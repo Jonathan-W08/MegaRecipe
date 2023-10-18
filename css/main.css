@@ -806,4 +806,6 @@ i {
 i:hover {
   color: #c6cbdc;
 }
-
+.search {
+  margin-left: 200px;
+}

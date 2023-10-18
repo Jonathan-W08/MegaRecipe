@@ -36,6 +36,13 @@
           <a href="recipes.html" class="nav-link"> recipes </a>
           <a href="contact.html" class="nav-link"> contact</a>
 
+          <div class="search">
+            <form onsubmit="event.preventDefault();" role="search"> 
+              <input id="search" type="search" placeholder="Search..." autofocus required />
+              <button type="submit">Go</button>    
+            </form>
+          </div>
+
           <div class="nav-link logout">
             <form onsubmit="return handleLogout();">
               <button type="submit" class="btn">Logout</button>
