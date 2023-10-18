@@ -812,3 +812,7 @@ i:hover {
 .search {
   margin-left: 200px;
 }
+.judul h1 {
+  margin: 10px 0;
+  text-align: center;
+}
